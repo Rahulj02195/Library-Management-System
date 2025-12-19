@@ -10,7 +10,7 @@ public class DBConnection {
             return DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/Library",
                 "root",
-                "Rahul@7382"
+                "root"
             );
         } catch (Exception e) {
             e.printStackTrace();
